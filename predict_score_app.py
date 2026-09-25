@@ -6,7 +6,7 @@ import joblib
 model=joblib.load("student_final_score_model.pkl")
 
 # Page Title
-st.title("Student Final Exam Score Prediction")
+st.title("Student Final Exam Score Predictor")
 st.write("Enter the student details to predict the Final Exam Score.")
 
 # Input 1
